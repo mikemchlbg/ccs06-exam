@@ -19,7 +19,7 @@
     @endfor
     <hr />
     <div class="row">
-        <button class="btn btn-primary btn-lg">Save Students</button>button>
+        <button class="btn btn-primary btn-lg">Save Students</button>
     </div>
     </form>
 

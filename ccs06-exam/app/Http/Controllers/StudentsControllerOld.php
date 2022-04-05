@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class StudentsController extends Controller
+class PlayersController extends Controller
 {
-    public function begin()
+    public function start()
     {
-        return view('begin');
+        return view('start');
     }
 
     public function enterGrades(Request $request)
