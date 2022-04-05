@@ -19,7 +19,7 @@ class StudentsController extends Controller
         $student_4 = $request->name_4;
         $student_5 = $request->name_5;
 
-        return view('attempts', [
+        return view('enter-grades', [
             'student_1' => $student_1,
             'student_2' => $student_2,
             'student_3' => $student_3,
@@ -48,7 +48,7 @@ class StudentsController extends Controller
         $s4_average = $this->computeAverageGrade($request->s4_midterm, $request->s4_finals);
         $s5_average = $this->computeAverageGrade($request->s5_midterm, $request->s5_finals);
 
-        return view('scores', [
+        return view('compute-grades', [
             'student_1' => $student_1,
             'student_2' => $student_2,
             'student_3' => $student_3,
